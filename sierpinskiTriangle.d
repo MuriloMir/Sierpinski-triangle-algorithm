@@ -1,5 +1,6 @@
 // This software draws a Sierpinski triangle recursively using the fiber feature of Dlang.
 
+// import all the tools we need
 import arsd.simpledisplay : Color, Point, ScreenPainter, SimpleWindow;
 import core.thread : Fiber;
 
