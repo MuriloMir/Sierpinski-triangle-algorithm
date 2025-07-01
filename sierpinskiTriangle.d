@@ -86,6 +86,7 @@ void fillTriangle(Triangle currentTriangle, SimpleWindow programWindow)
         painter.drawLine(currentTriangle.upperVertex, Point(baseX, currentTriangle.leftVertex.y));
 }
 
+// start the software
 void main()
 {
     // create the window for the GUI
